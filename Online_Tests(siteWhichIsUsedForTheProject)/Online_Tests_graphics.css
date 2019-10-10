@@ -1,0 +1,98 @@
+
+body{
+	margin: 0 auto;
+	background-image: url("ideas.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #FFD700;
+}
+
+/*CLASSES*/
+.label{
+	color: #fff;
+	font-size: 120%;
+}
+
+#container{
+	width: 500px;
+	height: 480px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.95); /* #34495E = rgb(52,73,94)*/
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 50px; /* gwnies tou box */
+	transition: all 0.5s; /*refresh efe*/
+}
+
+#container img{
+	width: 200px;
+	height: 150px;
+	margin-top: -60px;
+	margin-bottom: 15px;
+}
+
+#signUp{
+	width: 500px;
+	height: 720px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.95); /* #34495E = rgb(52,73,94)*/
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 50px; /* gwnies tou box */
+	transition: all 0.5s; /*refresh efe*/
+}
+
+#signUp img{
+	width: 200px;
+	height: 150px;
+	margin-top: -60px;
+	margin-bottom: 15px;
+}
+
+.login-button{
+	text-align: center;
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #23CC71;
+	border: none;
+	border-radius: 15px;
+	border-bottom: 4px solid #27AE60;
+	cursor: pointer;
+	display: inline-block;
+	transition: all 0.5s;
+	margin-bottom: 10px; /*keno katw ap to button */
+}
+
+.titPos{
+	margin-top: 10px;
+	font-size: 300%;
+	text-align: left;
+	color: #34495E;
+}
+
+.entryPos{
+	margin-top: -60px;
+	font-size: 250%;
+	text-align: center;
+	color: #34495E;
+}
+
+.footer{
+    color: #34495E;
+    text-align: left;
+    font-size: 18px;
+}
+
+/*Tag's changes*/
+input[type="text"],input[type="password"],input[type="email"]{
+	height: 40px;
+	width: 250px;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-bottom: 20px; /*keno metaksi username,pws klp */
+	padding-left: 10px; /* keno sto input box sta aristera */
+}
+
+input[type="radio"],input[type="number"]{
+	margin-bottom: 10px;
+}

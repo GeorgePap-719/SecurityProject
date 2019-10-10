@@ -1,0 +1,111 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=GR, ST=Fthiotida, L=Lamia, O=UTH, OU=Informatics Department, CN=Viglas Papadopoulos/emailAddress=pan.vig@hotmail.com
+        Validity
+            Not Before: Nov 25 11:51:57 2017 GMT
+            Not After : Nov 25 11:51:57 2019 GMT
+        Subject: C=GR, ST=Fthiotida, L=Lamia, O=UTH, OU=Informatics Department, CN=ONLINE TESTS/emailAddress=pan.vig@hotmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:ab:bd:45:78:4c:4b:aa:f1:5e:0c:a3:f6:e1:11:
+                    ee:41:ee:ba:ce:4b:55:b7:83:c4:ec:88:63:9f:1d:
+                    c5:e2:4c:12:df:de:2e:18:b8:f9:4d:f7:ea:3b:55:
+                    f4:5b:bb:9c:60:73:8c:f7:b2:93:91:e7:67:81:a7:
+                    48:48:d1:1e:e7:79:b9:68:69:5e:b4:bd:1f:25:7c:
+                    2f:97:27:aa:85:6a:d1:57:87:0e:09:1e:96:bd:d3:
+                    ed:f6:64:03:91:12:a1:7d:07:f5:99:db:be:3f:26:
+                    fd:e8:40:e2:11:2d:ad:a7:43:21:60:9d:cf:6b:43:
+                    f8:4f:7d:f4:57:ba:23:30:a4:2d:ed:36:53:5d:b9:
+                    27:9b:60:f1:88:e3:a1:1f:ed:78:41:e4:ab:a9:85:
+                    98:0f:fb:51:0a:1d:fb:79:1b:e2:03:7c:3d:0a:b9:
+                    3a:71:a1:77:5e:c8:48:a5:3c:15:7b:9a:52:13:fe:
+                    ef:3a:af:2a:dc:9e:16:ea:dd:e5:d4:87:15:d8:65:
+                    bf:24:e6:79:cc:9e:06:4d:65:d5:5b:71:a9:05:5c:
+                    1c:eb:1d:13:b3:bf:2e:a3:dc:b2:cc:4e:c1:13:9b:
+                    97:d7:92:c6:30:89:a2:4c:6f:98:c2:a2:a8:eb:b2:
+                    61:f9:4d:7f:3e:71:66:ff:dd:df:7d:36:cc:d0:c0:
+                    74:af
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                6C:0C:8E:FA:5C:30:41:C7:93:1D:0B:94:8C:05:2F:2F:77:6B:20:4F
+            X509v3 Authority Key Identifier: 
+                keyid:31:AE:C5:D5:17:8F:77:6F:9C:55:C2:B3:AB:C6:32:D1:40:37:06:CA
+                DirName:/C=GR/ST=Fthiotida/L=Lamia/O=UTH/OU=Informatics Department/CN=Viglas Papadopoulos/emailAddress=pan.vig@hotmail.com
+                serial:D6:20:BC:8A:74:31:6F:79
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            X509v3 Key Usage: 
+                Certificate Sign, CRL Sign
+            Netscape Cert Type: 
+                SSL CA, S/MIME CA
+    Signature Algorithm: md5WithRSAEncryption
+        03:8a:b5:45:58:36:37:e2:d6:b2:5b:fa:ba:cc:eb:b1:a5:9a:
+        e5:05:05:e2:8b:6e:42:bc:e3:32:3b:17:c9:45:47:c0:01:30:
+        e5:e9:e7:23:ac:af:de:a1:7f:e4:5c:7e:ce:c7:78:46:55:0c:
+        82:e6:3c:7a:4c:46:8a:8f:bc:c2:8b:28:e8:f4:e9:88:91:dc:
+        c7:ce:62:ed:0a:43:3f:8d:34:28:b3:2b:f7:c0:b5:a1:ef:13:
+        33:7b:f2:b1:0a:a1:5b:bf:70:6f:c2:38:d4:41:80:e1:cb:fc:
+        a0:3d:e8:b2:82:83:f0:a4:b5:bf:42:93:74:7d:c7:88:0f:8e:
+        05:59:7f:19:b7:33:25:d2:98:fe:fd:99:47:4f:49:b5:1d:41:
+        29:7a:0e:bb:a5:ab:64:6e:30:10:de:29:ef:52:3f:f1:75:04:
+        ba:08:7d:d5:17:cd:a9:7a:ac:f3:c1:94:f9:1f:9a:9f:91:4a:
+        ab:8d:10:7c:4d:c4:cd:5b:e0:62:e3:25:26:05:d9:74:07:50:
+        d3:92:97:73:31:0c:af:7f:4b:45:da:e0:10:cb:d1:18:e8:79:
+        be:2f:54:40:d0:ff:43:21:f0:14:f5:db:b8:c8:b0:9f:fd:77:
+        c1:14:f6:ce:2c:fd:1e:26:13:8d:4a:a3:a0:9d:29:dd:e3:ec:
+        11:e7:a7:be:5c:1b:02:1e:c6:79:55:23:23:33:0f:f2:e2:80:
+        b5:a3:c9:f9:75:b6:d9:74:9f:58:a5:56:ea:2e:00:3d:bd:d7:
+        35:d0:1d:93:6a:1d:e6:b6:ee:3a:49:e2:2a:90:ec:12:66:73:
+        cd:89:3c:b0:6b:6f:9b:e7:13:61:ae:9d:9e:70:e5:d2:a0:b3:
+        65:b9:16:fe:fc:58:06:40:c7:86:aa:2c:ab:ea:f5:1f:e5:26:
+        8b:4c:72:6e:51:aa:6c:46:a1:3f:e3:f8:bf:07:29:2d:1a:cf:
+        cc:0b:ec:7f:62:b0:d0:2d:98:0b:91:53:84:fb:51:7c:dc:9f:
+        49:f6:29:82:7c:1f:33:af:5f:06:dd:78:0c:5c:a8:83:07:d1:
+        8c:07:09:c2:eb:8a:39:a3:38:7b:d5:f2:12:98:63:c2:7e:6c:
+        8d:0c:6b:79:40:ff:c2:7e:24:3f:c7:be:5c:46:50:e4:ce:25:
+        b6:d0:bd:a3:37:47:00:3e:2e:a9:ca:a5:a2:b0:e3:17:34:89:
+        8d:96:9a:12:77:8b:11:f5:87:83:30:51:c2:a5:ff:e1:a7:9b:
+        d3:fa:e9:27:2a:7b:a1:a5:dc:95:cb:73:d1:48:64:66:f0:07:
+        18:e8:51:93:a7:15:f0:f7:26:54:96:eb:da:a2:0b:03:77:08:
+        68:40:30:20:c7:08:0a:e8
+-----BEGIN CERTIFICATE-----
+MIIF5zCCA8+gAwIBAgIBAjANBgkqhkiG9w0BAQQFADCBojELMAkGA1UEBhMCR1Ix
+EjAQBgNVBAgTCUZ0aGlvdGlkYTEOMAwGA1UEBxMFTGFtaWExDDAKBgNVBAoTA1VU
+SDEfMB0GA1UECxMWSW5mb3JtYXRpY3MgRGVwYXJ0bWVudDEcMBoGA1UEAxMTVmln
+bGFzIFBhcGFkb3BvdWxvczEiMCAGCSqGSIb3DQEJARYTcGFuLnZpZ0Bob3RtYWls
+LmNvbTAeFw0xNzExMjUxMTUxNTdaFw0xOTExMjUxMTUxNTdaMIGbMQswCQYDVQQG
+EwJHUjESMBAGA1UECBMJRnRoaW90aWRhMQ4wDAYDVQQHEwVMYW1pYTEMMAoGA1UE
+ChMDVVRIMR8wHQYDVQQLExZJbmZvcm1hdGljcyBEZXBhcnRtZW50MRUwEwYDVQQD
+EwxPTkxJTkUgVEVTVFMxIjAgBgkqhkiG9w0BCQEWE3Bhbi52aWdAaG90bWFpbC5j
+b20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCrvUV4TEuq8V4Mo/bh
+Ee5B7rrOS1W3g8TsiGOfHcXiTBLf3i4YuPlN9+o7VfRbu5xgc4z3spOR52eBp0hI
+0R7nebloaV60vR8lfC+XJ6qFatFXhw4JHpa90+32ZAOREqF9B/WZ274/Jv3oQOIR
+La2nQyFgnc9rQ/hPffRXuiMwpC3tNlNduSebYPGI46Ef7XhB5KuphZgP+1EKHft5
+G+IDfD0KuTpxoXdeyEilPBV7mlIT/u86ryrcnhbq3eXUhxXYZb8k5nnMngZNZdVb
+cakFXBzrHROzvy6j3LLMTsETm5fXksYwiaJMb5jCoqjrsmH5TX8+cWb/3d99NszQ
+wHSvAgMBAAGjggErMIIBJzAdBgNVHQ4EFgQUbAyO+lwwQceTHQuUjAUvL3drIE8w
+gdcGA1UdIwSBzzCBzIAUMa7F1RePd2+cVcKzq8Yy0UA3BsqhgaikgaUwgaIxCzAJ
+BgNVBAYTAkdSMRIwEAYDVQQIEwlGdGhpb3RpZGExDjAMBgNVBAcTBUxhbWlhMQww
+CgYDVQQKEwNVVEgxHzAdBgNVBAsTFkluZm9ybWF0aWNzIERlcGFydG1lbnQxHDAa
+BgNVBAMTE1ZpZ2xhcyBQYXBhZG9wb3Vsb3MxIjAgBgkqhkiG9w0BCQEWE3Bhbi52
+aWdAaG90bWFpbC5jb22CCQDWILyKdDFveTAMBgNVHRMEBTADAQH/MAsGA1UdDwQE
+AwIBBjARBglghkgBhvhCAQEEBAMCAQYwDQYJKoZIhvcNAQEEBQADggIBAAOKtUVY
+Njfi1rJb+rrM67GlmuUFBeKLbkK84zI7F8lFR8ABMOXp5yOsr96hf+Rcfs7HeEZV
+DILmPHpMRoqPvMKLKOj06YiR3MfOYu0KQz+NNCizK/fAtaHvEzN78rEKoVu/cG/C
+ONRBgOHL/KA96LKCg/Cktb9Ck3R9x4gPjgVZfxm3MyXSmP79mUdPSbUdQSl6Drul
+q2RuMBDeKe9SP/F1BLoIfdUXzal6rPPBlPkfmp+RSquNEHxNxM1b4GLjJSYF2XQH
+UNOSl3MxDK9/S0Xa4BDL0Rjoeb4vVEDQ/0Mh8BT127jIsJ/9d8EU9s4s/R4mE41K
+o6CdKd3j7BHnp75cGwIexnlVIyMzD/LigLWjyfl1ttl0n1ilVuouAD291zXQHZNq
+Hea27jpJ4iqQ7BJmc82JPLBrb5vnE2GunZ5w5dKgs2W5Fv78WAZAx4aqLKvq9R/l
+JotMcm5RqmxGoT/j+L8HKS0az8wL7H9isNAtmAuRU4T7UXzcn0n2KYJ8HzOvXwbd
+eAxcqIMH0YwHCcLrijmjOHvV8hKYY8J+bI0Ma3lA/8J+JD/HvlxGUOTOJbbQvaM3
+RwA+LqnKpaKw4xc0iY2WmhJ3ixH1h4MwUcKl/+Gnm9P66Scqe6Gl3JXLc9FIZGbw
+BxjoUZOnFfD3JlSW69qiCwN3CGhAMCDHCAro
+-----END CERTIFICATE-----

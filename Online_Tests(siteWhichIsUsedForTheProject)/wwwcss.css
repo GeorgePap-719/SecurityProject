@@ -1,0 +1,52 @@
+.main{
+	margin: 0 auto;
+	background-image: url("background.png");
+	background-repeat: repeat;
+	background-size: 100%;
+	background-color: #FFD700;
+}
+
+.goback{	
+	background-image: url("back2.png");  
+    background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;  
+	
+    outline: none;
+	border-radius: 50%;
+	cursor: pointer;
+  
+	margin-top: 5px;
+	margin-left: 1%;
+   
+    height: 48px;
+	width: 48px;
+}
+
+.logoutb{
+	background-image: url("logout3.png");
+    background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: white;
+	
+	cursor: pointer;
+	border-radius: 50%;
+	outline: none;
+	
+	height: 48px;
+	width: 48px;
+	
+	margin-top: -30px;
+	margin-left: 95%;
+}
+
+.createb{
+	cursor: pointer;
+	outline: none;
+	float: left;
+}
+
+#hello{
+	color: black;
+	font-size: 120%;
+}

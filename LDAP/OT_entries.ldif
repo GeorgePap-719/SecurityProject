@@ -1,0 +1,33 @@
+dn: c=EL
+objectClass: Organization
+c: EL
+
+dn: O=Online_Tests, c=EL
+objectClass: Organization
+o: Online_Tests
+
+dn: OU=Admin,O=Online_Tests, c=EL
+ou: Admin
+objectClass: OrganizationalUnit
+
+dn: cn=paviglas,OU=Admin,O=Online_Tests, c=EL
+mail: pan.vig@hotmail.com
+givenName: admin
+userPassword: uthadmin3w
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Online_Tests paviglas
+
+dn: OU=Users,O=Online_Tests, c=EL
+ou: Users
+objectClass: OrganizationalUnit
+
+dn: cn=george,OU=Users,O=Online_Tests, c=EL
+mail: g_kr0s@yahoo.com
+givenName: george
+userPassword: 123g
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: Online_Tests george

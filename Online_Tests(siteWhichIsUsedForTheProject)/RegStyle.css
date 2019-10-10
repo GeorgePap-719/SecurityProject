@@ -1,0 +1,23 @@
+body{
+	margin: 0 auto;
+	background-image: url("class.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: white;
+}
+
+.regi{
+	margin-top: -60px;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.headback{
+	margin-top: -60px;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}

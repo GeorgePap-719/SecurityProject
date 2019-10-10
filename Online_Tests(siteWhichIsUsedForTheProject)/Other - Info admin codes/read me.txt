@@ -1,0 +1,12 @@
+Project: Online Tests
+
+
+Giwrgos Papadopoulos 
+
+admin account sto site:
+	username: admin
+	password: uthadmin3W
+
+-----------------------------------------------------------------
+
+

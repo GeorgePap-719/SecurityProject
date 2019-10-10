@@ -1,0 +1,103 @@
+create table user(
+	fname varchar(50),
+	lname varchar(50),
+	username varchar(500) UNIQUE,
+	pws varchar(500),
+	email varchar(500) UNIQUE,
+	gen varchar(7),
+	date date,
+	id integer AUTO_INCREMENT,
+	primary key(username)
+);
+
+create table subject(
+	name varchar(30),
+	semester integer,
+	primary key(name)
+);
+
+create table test(
+	title varchar(30),
+	time real,
+	subName varchar(30),
+	primary key(title)
+);
+
+create table writesTest(
+	username varchar(50),
+	test_title varchar(30),
+	finalGrade real,
+	primary key(username,test_title),
+	foreign key(username) references user(username),
+	foreign key(test_title) references test(title)
+);
+
+create table questionN(
+	id integer AUTO_INCREMENT,
+	query varchar(500),
+	monades real,
+	primary key(id)
+);
+
+create table questionMc(
+	id integer AUTO_INCREMENT,
+	query varchar(500),
+	choice1 varchar(100),
+	choice2 varchar(100),
+	choice3 varchar(100),
+	choice4 varchar(100),
+	monades real,
+	primary key(id)
+);
+
+create table questionNbelongsSub(
+	qid integer,
+	subName varchar(30),
+	primary key(qid,subName),
+	foreign key(qid) references questionN(id),
+	foreign key(subName) references subject(name)
+);
+
+create table questionMcbelongsSub(
+	qid integer,
+	subName varchar(30),
+	primary key(qid,subName),
+	foreign key(qid) references questionMc(id),
+	foreign key(subName) references subject(name)
+);
+
+create table questionNbelongsTest(
+	qid integer,
+	testTit varchar(30),
+	primary key(qid,testTit),
+	foreign key(qid) references questionN(id),
+	foreign key(testTit) references test(title)
+);
+
+create table questionMcbelongsTest(
+	qid integer,
+	testTit varchar(30),
+	primary key(qid,testTit),
+	foreign key(qid) references questionMc(id),
+	foreign key(testTit) references test(title)
+);
+
+create table UserAnswersQuestionN(
+	username varchar(50),
+	qid integer,
+	answer varchar(500),
+	grade real,
+	primary key(username,qid),
+	foreign key(qid) references questionN(id),
+	foreign key(username) references user(username)
+);
+
+create table UserAnswersQuestionMc(
+	username varchar(50),
+	qid integer,
+	answer varchar(500),
+	grade real,
+	primary key(username,qid),
+	foreign key(qid) references questionMc(id),
+	foreign key(username) references user(username)
+);
